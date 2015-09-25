@@ -147,12 +147,17 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/binary.jpg) no-repeat bottom center scroll;
+    background: url(../img/binary-90.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+img {
+  opacity: .4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 .intro .intro-body {
